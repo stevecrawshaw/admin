@@ -4,6 +4,8 @@ pacman::p_load(tidyverse,
                glue,
                janitor)
 
+# script takes data from spreadsheets and transforms to raindrop format for import
+
 # The ONS data contains hyperlinks which must be disaggregated into text nd url using a function in the data/ONS_hyperlinks.xlsm spreadsheet first
 
 ons_path <- "data/ONS_hyperlinks.xlsx"
